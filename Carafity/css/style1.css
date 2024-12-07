@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+/* navbar section  */
+.navbar{
+    background-color: #6C4C2B;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+}
+.navbar-logo{
+    display: flex;
+    align-items: center;
+
+}
+.navbar-link a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+
+}
+.logo-icon{
+    font-size: 28px;
+    margin-right: 20px;
+}
+/* banner section  */
+.banner{
+    background-image: url("../images/basket.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 80px;
+}
+.banner-text h1{
+    color: #6C4C2B;
+    font-size: 80px;
+}
+.banner-text p{
+    color: #6C4C2B;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.main-btn{
+    background-color: #6C4C2B;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 40px;
+    border: none;
+    
+    transition-duration: 2s;
+}
+
+.main-btn:hover{
+    color: #6C4C2B;
+    background-color: white;
+    cursor: pointer;
+}
+/* story section  */
+.story{
+    display: flex;
+    justify-content: center;
+}
+.story-left img{
+    height: 600px;
+    margin-right: 60px;
+}
+.story-text{
+    width: 600px;
+}
+.story-right{
+    display: flex;
+    align-items: center;
+}
+.story-inner {
+    display: flex;
+    margin: 40px 0;
+}
+.story-text>h1{
+    margin: 30px 0;
+}
+.story-text>p{
+    text-align: justify;
+}
+.storyi-l{
+    margin-right: 20px;
+}
+
+.written2{
+    margin-left: 600px;
+    margin-top: 20px;
+}
+
+
+
+/* new section */
+.new{
+    display: flex;
+    justify-content: center;
+    margin: 80px 0px;
+}
+.new-card{
+    width: 200px;
+}
+.new-left{
+    width: 450px;
+}
+.new-left-inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.new-card img{
+    width: 100%;
+}
+.new-right{
+    margin-left: 60px;
+}
+.new-right img{
+    height: 500px;
+}
+/* feature section */
+.feature{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px ;
+}
+.feature-card{
+    width: 250px;
+    text-align: center;
+    border-right: 1px solid black;
+}
+.feature-icon{
+    font-size: 30px;
+}
+.feature-card h4{
+    margin: 20px 0;
+}
+.feature-card1{
+    border: none;
+}
+/* picture section */
+.pictures{
+    display: flex;
+    justify-content: center;
+    padding: 50px 180px;
+
+}
+.picimg{
+    background-image: url("../images/h1_img-4.jpg");
+    height: 500px;
+    width: 400px;
+    background-size: cover;
+    background-position: center;
+}
+.picimg2{
+    background-image: url("../images/gallery-3-1.jpg");
+    height: 350px;
+    width: 350px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 40px;
+     margin-top: 50px; 
+}
+.pictext{
+    margin-left: 60px;
+    font-size: 40px;
+
+}
+.pictext p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+/* shop section  */
+.shop-parent{
+    padding: 50px 180px;
+    margin: 50px 0 px ;
+}
+.shop-parent h1{
+    margin-bottom: 20px;
+}
+.shop{
+    display: flex;
+    justify-content: space-between;
+}
+.shop-card{
+    width: 200px;
+    height: 200px;
+}
+.shop-card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px 0 grey;
+}
+.design{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 180px;
+}
+.design-text h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+.design-img{
+    background-image: url("../images/h1_img-5.jpg");
+    height: 400px;
+    width: 700px;
+    background-size: cover;
+    background-position: center;
+}
+/* category section */
+.category{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 180px;
+}
+.category-card{
+ border-radius: 10px;
+ background-size: cover;
+ background-position: center;
+ height: 300px;
+ width: 250px;
+ text-align: center;
+ padding-top: 240px;
+}
+.category-card h2{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+
+}
+.cat-card1{
+    background-image: url("../images/gallery-4-1.jpg");
+}
+.cat-card2{
+    background-image: url("../images/gallery-5-1.jpg");
+}
+.cat-card3{
+    background-image: url("../images/gallery-6-1.jpg");
+}
+/* follow section */
+.follow-icons{
+    background-color: #6C4C2B;
+    color: white;
+    border-radius: 40px;
+    width: 500px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.follow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+
+}
+.follow-icon{
+    padding: 5px 30px;
+}
+.follow-icon:hover{
+    background-color: antiquewhite;
+    color: #6C4C2B;
+    border-radius: 20px;
+    cursor: pointer;
+}
+/* fotter section  */
+footer{
+    background-color: #F9F4E9;
+    padding: 50px 180px;
+
+}
+.footer1{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-card1{
+    width: 250px;
+}
+.footer1-inner{
+    display: flex;
+}
+.foot{
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-icon{
+    color: white;
+
+
+}
+.foot-1{
+    margin:0 10px;
+}
+.footer ul li{
+    font-size: 14px;
+    margin-top: 5px;
+
+}
+.footer-card1 p{
+    font-size: 14px;
+    margin: 5px 0;
+}
+.footer2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px 0;
+}
+.footer-form{
+    margin-top: 40px;
+}
+.footer-form input{
+    background-color: white;
+    border-radius: 40px;
+    height: 40px;
+    width: 400px;
+    border: none;
+    padding-left: 30px;
+}
+.footer-form button{
+    background-color: black;
+    color: white;
+    border: none;
+    height: 30px;
+    border-radius: 40px;
+    padding: 0 30px;
+    margin-left: -130px;
+}
+.footer3{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer3 img{
+    height: 20px;
+}
